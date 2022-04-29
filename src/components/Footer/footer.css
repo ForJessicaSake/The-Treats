@@ -1,0 +1,24 @@
+.footer {
+    padding-top: 3%;
+    background-color: #141011;
+    color: #e7e7e7;
+    display: flex;
+    justify-content: space-between;
+    padding: 7% 0% 3% 0%;
+}
+
+.footer-heading {
+    padding-left: 6%;
+}
+
+.icons {
+    margin: 0% 10%;
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icons i {
+    font-size: 1.1em;
+    color: white;
+}

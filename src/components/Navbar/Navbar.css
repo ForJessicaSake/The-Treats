@@ -1,0 +1,94 @@
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+ 
+ .navigation {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     padding: 10px;
+     background: transparent;
+     cursor: pointer;
+     padding: 3% 4% 0% 6%;
+     background-color: #141011;
+     color: #e7e7e7;
+ }
+ 
+ ul {
+     list-style: none;
+     display: none;
+     gap: 8em;
+ }
+ 
+ .Menu-icon {
+     display: none;
+ }
+ 
+ a {
+     text-decoration: none;
+     color: #e7e7e7;
+ }
+ 
+ .navigation i {
+     font-size: 25px;
+ }
+ 
+ @media only screen and (max-width: 960px) and (min-width: 320px) {
+     .NavbarItems {
+         position: relative;
+     }
+     ul {
+         list-style: none;
+         gap: 8em;
+     }
+     .nav-menu {
+         display: flex;
+         flex-direction: column;
+         width: 100%;
+         height: 740px;
+         position: absolute;
+         top: 80px;
+         left: -100%;
+         opacity: 1;
+         transition: all 0.5s ease;
+     }
+     .nav-menu.active {
+         background: rgb(252, 252, 52);
+         left: 0;
+         opacity: 1;
+         transition: all 0.5s ease;
+         z-index: 1;
+     }
+     a {
+         color: black;
+         font-size: 20px;
+         font-weight: bold;
+     }
+     .Nav-links {
+         text-align: center;
+         padding: 2rem;
+         width: 100%;
+         display: table;
+     }
+     .Nav-links:hover {
+         background-color: white;
+         border-radius: 0;
+     }
+     .Navbar-logo {
+         position: absolute;
+         top: 0;
+         left: 0;
+         transform: translate(25%, 50%)
+     }
+     .Menu-icon {
+         display: block;
+         position: absolute;
+         top: 0;
+         right: 0;
+         transform: translate(-100%, 60%);
+         font-size: 1.8rem;
+         cursor: pointer;
+     }
+ }

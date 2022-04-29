@@ -1,0 +1,168 @@
+.Sales {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #141011;
+}
+
+.Sales-text {
+    align-self: center;
+    color: #e7e7e7;
+}
+
+.Sales-text h1 {
+    align-self: center;
+    color: #e7e7e7;
+    font-size: 55px;
+    border-bottom: 2px solid yellow;
+    border-right: 2px solid yellow;
+    padding-right: 40px;
+    margin-bottom: 2%;
+}
+
+.Sales button {
+    margin-top: 7%;
+    padding: 10px;
+    width: 150px;
+    background-color: red;
+    border: 0px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 8px;
+}
+
+@media only screen and (max-width: 480px) and (min-width: 320px) {
+    html,
+    body {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+    .Sales {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 15%;
+    }
+    .Sales img {
+        width: 360px;
+        margin-bottom: 5%;
+    }
+    .Sales-text {
+        align-self: center;
+        color: #e7e7e7;
+    }
+    .Sales-text h1 {
+        align-self: center;
+        color: #e7e7e7;
+        font-size: 30px;
+        border-bottom: 3px solid yellow;
+        border-right: 3px solid yellow;
+        padding-right: 20px;
+        margin-bottom: 3%;
+    }
+    .Sales-text p {
+        font-size: 19px;
+        width: 350px;
+    }
+    .Sales button {
+        margin-top: 7%;
+        padding: 10px;
+        width: 160px;
+        background-color: red;
+        border: 0px;
+        color: white;
+        font-weight: bold;
+        font-size: 16px;
+        border-radius: 10px;
+    }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 481px) {
+    html,
+    body {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+    .Sales {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 15%;
+    }
+    .Sales img {
+        width: 600px;
+        margin-left: 10%;
+    }
+    .Sales-text {
+        align-self: center;
+        color: #e7e7e7;
+    }
+    .Sales-text h1 {
+        align-self: center;
+        color: #e7e7e7;
+        font-size: 55px;
+        border-bottom: 3px solid yellow;
+        border-right: 3px solid yellow;
+        padding-right: 20px;
+        margin-bottom: 3%;
+    }
+    .Sales-text p {
+        font-size: 25px;
+        width: 650px;
+    }
+    .Sales button {
+        margin-top: 7%;
+        padding: 15px;
+        width: 250px;
+        background-color: red;
+        border: 0px;
+        color: white;
+        font-weight: bold;
+        font-size: 28px;
+        border-radius: 12px;
+    }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 769px) {
+    html,
+    body {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+    .Sales {
+        margin: 5% 0% 3% 5%;
+    }
+    .Sales img {
+        width: 400px;
+    }
+    .Sales-text {
+        align-self: center;
+        color: #e7e7e7;
+    }
+    .Sales-text h1 {
+        align-self: center;
+        color: #e7e7e7;
+        font-size: 52px;
+    }
+    .Sales-text p {
+        font-size: 27px;
+        width: 600px;
+        line-height: 1.5em;
+    }
+    .Sales button {
+        margin-top: 7%;
+        padding: 15px;
+        width: 250px;
+        background-color: red;
+        border: 0px;
+        color: white;
+        font-weight: bold;
+        font-size: 28px;
+        border-radius: 12px;
+    }
+}

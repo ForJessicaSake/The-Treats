@@ -1,0 +1,156 @@
+.hero-page {
+    background-color: #141011;
+    display: flex;
+    justify-content: space-between;
+    padding: 0% 6% 0% 1%;
+    flex-wrap: wrap;
+}
+
+.hero-img {
+    width: 350px;
+}
+
+.hero-text {
+    color: #e7e7e7;
+    align-self: center;
+}
+
+.hero-text h1 {
+    font-size: 65px;
+    border-bottom: 2px solid yellow;
+    border-right: 2px solid yellow;
+    padding-right: 60px;
+}
+
+.hero-text h2 {
+    font-size: 25px;
+    margin-top: 2%;
+}
+
+.hero-page button {
+    margin-top: 4%;
+    padding: 10px;
+    width: 150px;
+    background-color: red;
+    border: 0px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 8px;
+}
+
+button:hover {
+    transition: 2s;
+    transition-delay: 0.001s;
+    transform: scale(1.1);
+    scroll-behavior: smooth;
+}
+
+@media only screen and (max-width: 480px) and (min-width: 320px) {
+    html,
+    body {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+    .hero-page {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .hero-img {
+        width: 300px;
+    }
+    .hero-text h1 {
+        font-size: 35px;
+        padding-right: 20px;
+        margin: 4% 0% 0% 0%;
+    }
+    .hero-text h2 {
+        font-size: 17px;
+        margin-top: 4%;
+    }
+    .hero-page button {
+        margin-top: 5%;
+        padding: 10px;
+        width: 200px;
+        background-color: red;
+        border: 0px;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        border-radius: 10px;
+    }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 481px) {
+    html,
+    body {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+    .hero-page {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .hero-img {
+        width: 450px;
+    }
+    .hero-text h1 {
+        font-size: 66px;
+        padding-right: 35px;
+        margin-top: 4%;
+    }
+    .hero-text h2 {
+        font-size: 35px;
+        margin-top: 4%;
+    }
+    .hero-page button {
+        margin-top: 5%;
+        padding: 20px;
+        width: 350px;
+        background-color: red;
+        border: 0px;
+        color: white;
+        font-weight: bold;
+        font-size: 40px;
+        border-radius: 15px;
+    }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 769px) {
+    html,
+    body {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+    .hero-img {
+        width: 400px;
+    }
+    .hero-text h1 {
+        font-size: 56px;
+        padding-right: 25px;
+        margin-top: 4%;
+    }
+    .hero-text h2 {
+        font-size: 30px;
+        margin-top: 4%;
+    }
+    .hero-page button {
+        margin-top: 5%;
+        padding: 15px;
+        width: 250px;
+        background-color: red;
+        border: 0px;
+        color: white;
+        font-weight: bold;
+        font-size: 28px;
+        border-radius: 10px;
+    }
+}
