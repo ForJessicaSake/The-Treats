@@ -44,12 +44,22 @@
          display: flex;
          flex-direction: column;
          width: 100%;
-         height: 650px;
+         height: 580px;
          position: absolute;
          top: 80px;
          left: -100%;
          opacity: 1;
          transition: all 0.5s ease;
+     }
+     .navigation {
+         display: flex;
+         flex-direction: row;
+         justify-content: space-between;
+         cursor: pointer;
+         padding: 3% 4% 0% 4%;
+         background-color: #141011;
+         color: #e7e7e7;
+         align-items: center;
      }
      .nav-menu.active {
          background: rgb(252, 252, 52);
@@ -78,8 +88,7 @@
          position: absolute;
          top: 0;
          right: 0;
-         transform: translate(-100%, 60%);
-         font-size: 2rem;
+         font-size: 2.5rem;
          cursor: pointer;
      }
  }
