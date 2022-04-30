@@ -15,7 +15,7 @@ function Favourite() {
                     <img className='pizza-img' src={pizza} alt='pizza'></img>
                     <div className='text'>
                         <h3>Supreme Pizza</h3>
-                        <p>Get this tasty delicious family size pizza at only;</p>
+                        <p>Get this delicious family size pizza at only;</p>
                         <h2>N5,000</h2>
                         <button>Add to Cart</button>
                     </div>
@@ -26,7 +26,7 @@ function Favourite() {
                     <div className='text'>
 
                     <h3>Ham Burger</h3>
-                    <p>Get this tasty delicious ham burger at only;</p>
+                    <p>Get this tasty ham burger at only;</p>
                     <h2>N2,000</h2>
                     <button>Add to Cart</button>
                     </div>
@@ -37,7 +37,7 @@ function Favourite() {
                         <div className='text'>
 
                     <h3>Taco</h3>
-                    <p>Get this tasty delicious family size pizza at only;</p>
+                    <p>Get this delicious Taco slize at only;</p>
                     <h2>N3,000</h2>
                     <button>Add to Cart</button>
                     </div>

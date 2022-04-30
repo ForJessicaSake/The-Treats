@@ -15,7 +15,7 @@ function Treat() {
                     <img className='doughnut-img' src={doughnut} alt='doughnut'></img>
                     <div className='text'>
                     <h3>Tasty Doughnut</h3>
-                    <p>Get this tasty delicious family size doughnut at only;</p>
+                    <p>Get this delicious family size doughnut at only;</p>
                     <h2>N2,500</h2>
                     <button>Add to Cart</button>
                     </div>
@@ -24,7 +24,7 @@ function Treat() {
                     <img className='icecream-img' src={icecream} alt='ice-cream'></img>
                     <div className='text'>
                     <h3>Ice cream</h3>
-                    <p>Get this tasty delicious ham burger at only;</p>
+                    <p>Get this tasty icecream at only;</p>
                     <h2>N1,500</h2>
                     <button>Add to Cart</button>
                     </div>
@@ -33,7 +33,7 @@ function Treat() {
                     <img className='cake-img' src={cake} alt='cake'></img>
                     <div className='text'>
                     <h3>Taco</h3>
-                    <p>Get this tasty delicious family size pizza at only;</p>
+                    <p>Get this delicious piece of cake at only;</p>
                     <h2>N1,000</h2>
                     <button>Add to Cart</button>
                 </div>

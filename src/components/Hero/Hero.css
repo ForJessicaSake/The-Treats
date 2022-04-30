@@ -13,13 +13,14 @@
 .hero-text {
     color: #e7e7e7;
     align-self: center;
+    margin-right: 15%;
 }
 
 .hero-text h1 {
-    font-size: 65px;
+    font-size: 55px;
     border-bottom: 2px solid yellow;
     border-right: 2px solid yellow;
-    padding-right: 60px;
+    padding-right: 50px;
 }
 
 .hero-text h2 {
@@ -58,28 +59,33 @@ button:hover {
         display: flex;
         flex-direction: column;
         align-items: center;
+        justify-content: center;
     }
     .hero-img {
         width: 300px;
     }
+    .hero-text {
+        margin: 0% 0% 0% 5%;
+    }
     .hero-text h1 {
-        font-size: 35px;
-        padding-right: 20px;
+        font-size: 30px;
+        padding-right: 22px;
         margin: 4% 0% 0% 0%;
+        width: 330px;
     }
     .hero-text h2 {
-        font-size: 17px;
+        font-size: 18px;
         margin-top: 4%;
     }
     .hero-page button {
         margin-top: 5%;
-        padding: 10px;
+        padding: 12px;
         width: 200px;
         background-color: red;
         border: 0px;
         color: white;
         font-weight: bold;
-        font-size: 18px;
+        font-size: 19px;
         border-radius: 10px;
     }
 }
@@ -96,14 +102,19 @@ button:hover {
         display: flex;
         flex-direction: column;
         align-items: center;
+        justify-content: center;
+    }
+    .hero-text {
+        margin: 0% 0% 0% 5%;
     }
     .hero-img {
         width: 450px;
     }
     .hero-text h1 {
-        font-size: 66px;
+        font-size: 60px;
         padding-right: 35px;
         margin-top: 4%;
+        width: 630px;
     }
     .hero-text h2 {
         font-size: 35px;
@@ -130,22 +141,30 @@ button:hover {
         padding: 0;
         overflow-x: hidden;
     }
+    .hero-page {
+        background-color: #141011;
+        display: flex;
+        justify-content: center;
+        padding: 0% 6% 0% 1%;
+        flex-wrap: wrap;
+    }
     .hero-img {
-        width: 400px;
+        width: 450px;
     }
     .hero-text h1 {
-        font-size: 56px;
-        padding-right: 25px;
+        font-size: 75px;
+        padding-right: 30px;
         margin-top: 4%;
+        word-spacing: 5px;
     }
     .hero-text h2 {
-        font-size: 30px;
+        font-size: 35px;
         margin-top: 4%;
     }
     .hero-page button {
         margin-top: 5%;
-        padding: 15px;
-        width: 250px;
+        padding: 17px;
+        width: 300px;
         background-color: red;
         border: 0px;
         color: white;

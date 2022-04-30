@@ -14,6 +14,7 @@
      padding: 3% 4% 0% 6%;
      background-color: #141011;
      color: #e7e7e7;
+     align-items: center;
  }
  
  ul {
@@ -39,15 +40,11 @@
      .NavbarItems {
          position: relative;
      }
-     ul {
-         list-style: none;
-         gap: 8em;
-     }
      .nav-menu {
          display: flex;
          flex-direction: column;
          width: 100%;
-         height: 740px;
+         height: 650px;
          position: absolute;
          top: 80px;
          left: -100%;
@@ -76,19 +73,13 @@
          background-color: white;
          border-radius: 0;
      }
-     .Navbar-logo {
-         position: absolute;
-         top: 0;
-         left: 0;
-         transform: translate(25%, 50%)
-     }
      .Menu-icon {
          display: block;
          position: absolute;
          top: 0;
          right: 0;
          transform: translate(-100%, 60%);
-         font-size: 1.8rem;
+         font-size: 2rem;
          cursor: pointer;
      }
  }

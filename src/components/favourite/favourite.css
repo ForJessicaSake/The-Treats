@@ -78,10 +78,11 @@
         grid-template-columns: repeat(var(--num-cols), 1fr);
         gap: var(--gap);
         text-align: center;
+        justify-content: center;
+        align-items: center;
     }
     .favourite .menu-item img {
         width: 330px;
-        margin-top: 10%;
     }
     .text {
         width: 107%;
@@ -133,10 +134,12 @@
         text-align: center;
         width: 600px;
         padding: 10px;
+        justify-content: center;
+        align-items: center;
     }
     .favourite .menu-item img {
         width: 580px;
-        margin-top: 10%;
+        margin-left: 5%;
     }
     .text {
         width: 200%;
